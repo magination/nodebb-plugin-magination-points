@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-ns-points",
-  "name": "NodeBB Points",
+  "id": "nodebb-plugin-magination-points",
+  "name": "NodeBB Point system",
   "description": "Additional metrics for User Profiles. It's like experience in video games. Plugin is good for gamification of your board.",
-  "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-points",
+  "url": "https://github.com/magination/nodebb-plugin-magination-points",
   "library": "./plugin.js",
   "hooks": [
     {

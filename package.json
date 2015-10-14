@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-ns-points",
+  "name": "nodebb-plugin-magination-points",
   "version": "2.1.0",
   "description": "Additional metrics for User Profiles. It's like experience in video games. Plugin is good for gamification of your board.",
   "main": "plugin.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicolasSiver/nodebb-plugin-ns-points.git"
+    "url": "git+https://github.com/magination/nodebb-plugin-magination-points.git"
   },
   "keywords": [
     "nodebb",
@@ -22,9 +22,9 @@
   "author": "Nicolas Siver",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-points/issues"
+    "url": "https://github.com/Magination/nodebb-plugin-magination-points/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-points#readme",
+  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-magination-points#readme",
   "dependencies": {
     "async": "^1.4.2",
     "lodash": "^3.7.0",
