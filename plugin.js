@@ -42,6 +42,17 @@ Plugin.hooks = {
 
             settings.init(callback);
         }
+    },
+    admin: {
+        menu: function(custom_header, callback) {
+            custom_header.plugins.push({
+                route: '/plugins/points',
+                icon : 'fa-gamepad',
+                name : 'Points'
+            });
+
+            callback(null, custom_header);
+        }
     }
 };
 

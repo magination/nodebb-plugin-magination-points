@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-magination-points",
-  "version": "2.1.0",
-  "description": "Additional metrics for User Profiles. It's like experience in video games. Plugin is good for gamification of your board.",
+  "version": "2.1.1",
+  "description": "Add points for spesific user interaction to create a level system.",
   "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,9 +22,9 @@
   "author": "Nicolas Siver",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Magination/nodebb-plugin-magination-points/issues"
+    "url": "https://github.com/magination/nodebb-plugin-magination-points/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-magination-points#readme",
+  "homepage": "https://github.com/magination/nodebb-plugin-magination-points#readme",
   "dependencies": {
     "async": "^1.4.2",
     "lodash": "^3.7.0",
