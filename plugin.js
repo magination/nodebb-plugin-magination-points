@@ -46,6 +46,7 @@
         },
         admin: {
             menu: function (custom_header, callback) {
+                console.log("points showing");
                 custom_header.plugins.push({
                     route: '/plugins/points',
                     icon: 'fa-gamepad',
@@ -56,17 +57,5 @@
             }
         }
     };
-
-    Plugin.admin = function (custom_header, callback) {
-        custom_header.plugins.push({
-            route: '/plugins/points',
-            icon: 'fa-gamepad',
-            name: 'Points'
-        });
-
-        callback(null, custom_header);
-    };
-
-    module.exports = Plugin;
 
 })();
