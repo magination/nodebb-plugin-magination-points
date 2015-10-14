@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-magination-points",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Add points for spesific user interaction to create a level system.",
   "main": "plugin.js",
   "scripts": {

@@ -6,48 +6,12 @@
   "library": "./plugin.js",
   "hooks": [
     {
-      "hook": "action:post.save",
-      "method": "hooks.actions.postSave"
-    },
-    {
-      "hook": "action:topic.save",
-      "method": "hooks.actions.topicSave"
-    },
-    {
-      "hook": "action:post.upvote",
-      "method": "hooks.actions.postUpvote"
-    },
-    {
-      "hook": "action:post.unvote",
-      "method": "hooks.actions.postUnvote"
-    },
-    {
       "hook": "filter:admin.header.build",
       "method": "admin.menu"
     },
     {
-      "hook": "filter:navigation.available",
-      "method": "hooks.filters.navigation"
-    },
-    {
-      "hook": "filter:post.get",
-      "method": "hooks.filters.postGet"
-    },
-    {
-      "hook": "filter:post.getPosts",
-      "method": "hooks.filters.postGetPosts"
-    },
-    {
-      "hook": "filter:topic.get",
-      "method": "hooks.filters.topicGet"
-    },
-    {
-      "hook": "filter:user.account",
-      "method": "hooks.filters.account"
-    },
-    {
       "hook": "static:app.load",
-      "method": "hooks.statics.load"
+      "method": "init"
     }
   ],
   "less": [
