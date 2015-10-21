@@ -3,11 +3,17 @@
 	"url": "https://github.com/magination/nodebb-plugin-magination-points",
 	"library": "./library.js",
 	"hooks": [
+	    {
+      		"hook": "action:post.save",
+      		"method": "hooks.actions.postSave"
+    	},
 		{
-			"hook": "static:app.load", "method": "init"
+			"hook": "static:app.load",
+			"method": "init"
 		},
 		{
-			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+			"hook": "filter:admin.header.build",
+			"method": "addAdminNavigation"
 		}
 	],
 	"staticDirs": {
