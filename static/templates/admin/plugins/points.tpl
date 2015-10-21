@@ -3,10 +3,10 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">Sample Admin Page</div>
 			<div class="panel-body">
-				<form role="form" class="quickstart-settings">
+				<form role="form" class="points-settings">
 					<p>
 						Adjust these settings. You can then retrieve these settings in code via:
-						<code>meta.settings.get('quickstart');</code>
+						<code>meta.settings.get('points');</code>
 					</p>
 					<div class="form-group">
 						<label for="setting-1">Setting 1</label>
