@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-quickstart",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"id": "nodebb-plugin-magination-points",
+	"url": "https://github.com/magination/nodebb-plugin-magination-points",
 	"library": "./library.js",
 	"hooks": [
 		{
