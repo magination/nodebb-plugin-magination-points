@@ -1,1 +1,0 @@
-<div class="alert alert-warning" role="alert">Under Construction. See <a href="https://github.com/NicolasSiver/nodebb-plugin-ns-points#todo" target="_blank">TODO list.</a></div>

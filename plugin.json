@@ -1,29 +1,24 @@
 {
-  "id": "nodebb-plugin-magination-points",
-  "name": "NodeBB Point system",
-  "description": "Additional metrics for User Profiles. It's like experience in video games. Plugin is good for gamification of your board.",
-  "url": "https://github.com/magination/nodebb-plugin-magination-points",
-  "library": "./plugin.js",
-  "hooks": [
-    {
-      "hook": "filter:admin.header.build",
-      "method": "admin.menu"
-    },
-    {
-      "hook": "static:app.load",
-      "method": "init"
-    }
-  ],
-  "less": [
-    "less/client.less"
-  ],
-  "scripts": [
-    "public/js/ranking.js",
-    "public/js/overview.js"
-  ],
-  "staticDirs": {
-    "templates": "./public/templates",
-    "js": "./public/js"
-  },
-  "templates": "./public/templates"
+	"id": "nodebb-plugin-quickstart",
+	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js",
+		"static/lib/admin.js"
+	],
+	"templates": "static/templates"
 }
