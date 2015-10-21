@@ -3,7 +3,7 @@
 
     var //actions = require('./app/actions'),
     //filters = require('./app/filters'),
-    //settings = require('./app/settings'),
+    settings = require('./app/settings'),
     //controller = require('./app/controller'),
         Plugin = {
             init: function(data, callback) {
@@ -15,7 +15,9 @@
                 data.router.get('admin/plugins/points', data.middleware.admin.buildHeader, render);
                 data.router.get('api/admin/plugins/points', render);
 
-                callback();
+                settings.init(callback);
+
+                //callback();
             },
             /* actions: actions,
              filters: filters,
@@ -48,8 +50,8 @@
              //Client page
              router.get('/points', middleware.buildHeader, renderClient);
              router.get('/api/points', renderClient);
-
-             settings.init(callback);
+            */
+             /*
              }()
              }, */
 
