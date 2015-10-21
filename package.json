@@ -25,11 +25,6 @@
     "url": "https://github.com/magination/nodebb-plugin-magination-points/issues"
   },
   "homepage": "https://github.com/magination/nodebb-plugin-magination-points#readme",
-  "dependencies": {
-    "async": "~1.4.2",
-    "lodash": "^3.7.0",
-    "object-assign": "^4.0.1"
-  },
   "nbbpm": {
     "compatibility": "^0.8.2"
   }
