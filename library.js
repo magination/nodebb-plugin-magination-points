@@ -1,6 +1,7 @@
 "use strict";
 
 var controllers = require('./lib/controllers'),
+	settings   = require('./lib/settings'),
 
 	plugin = {};
 
@@ -15,7 +16,7 @@ plugin.init = function(params, callback) {
 	router.get('/admin/plugins/points', hostMiddleware.admin.buildHeader, controllers.renderAdminPage);
 	router.get('/api/admin/plugins/points', controllers.renderAdminPage);
 
-	callback();
+	settings.init(callback);
 };
 
 plugin.addAdminNavigation = function(header, callback) {

@@ -6,10 +6,11 @@ define('admin/plugins/points', ['settings'], function(Settings) {
 	var ACP = {};
 
 	ACP.init = function() {
-		Settings.sync('points', $('.points-settings'));
+		Settings.load('points', $('.points-settings'));
 
 		$('#save').on('click', function() {
-			Settings.persist('points', $('.points-settings'), function() {
+			Settings.save('points', $('.points-settings'), function() {
+				socket.emit('admin.settings.syncMyPlugin');
 				app.alert({
 					type: 'success',
 					alert_id: 'points-saved',

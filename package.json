@@ -24,5 +24,11 @@
   "readmeFilename": "README.md",
   "nbbpm": {
     "compatibility": "^0.6.0 || ^0.7.0 || ^0.8.0"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "lodash": "^3.10.1",
+    "object-assign": "^4.0.1",
+    "path": "^0.12.7"
   }
 }
