@@ -7,7 +7,6 @@
     //controller = require('./app/controller'),
         Plugin = {
             init: function(data, callback) {
-                console.log("lets init");
                 function render(req, res, next) {
                     res.render('admin/plugins/points' +
                         '', {});
