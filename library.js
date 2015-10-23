@@ -1,9 +1,9 @@
 "use strict";
 
 var controllers = require('./lib/controllers'),
-	settings   = require('./lib/settings'),
-
-	plugin = {};
+	settings    = require('./lib/settings'),
+	actions     = require('./lib/actions'),
+	plugin 		= {};
 
 plugin.init = function(params, callback) {
 	var router = params.router,
@@ -28,5 +28,7 @@ plugin.addAdminNavigation = function(header, callback) {
 
 	callback(null, header);
 };
+
+plugin.addPost = actions.postSave;
 
 module.exports = plugin;

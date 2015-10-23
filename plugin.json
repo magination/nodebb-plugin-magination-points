@@ -5,7 +5,7 @@
 	"hooks": [
 	    {
       		"hook": "action:post.save",
-      		"method": "hooks.actions.postSave"
+      		"method": "addPost"
     	},
 		{
 			"hook": "static:app.load",
