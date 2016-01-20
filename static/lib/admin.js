@@ -10,7 +10,6 @@ define('admin/plugins/points', ['settings'], function(Settings) {
 
 		$('#save').on('click', function() {
 			Settings.save('points', $('.points-settings'), function() {
-				socket.emit('admin.settings.syncMyPlugin');
 				app.alert({
 					type: 'success',
 					alert_id: 'points-saved',

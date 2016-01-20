@@ -9,12 +9,12 @@
 						<code>meta.settings.get('points');</code>
 					</p>
 					<div class="form-group">
-						<label for="setting-1">Setting 1</label>
-						<input type="text" id="setting-1" name="setting-1" title="Setting 1" class="form-control" placeholder="Setting 1">
+						<label for="setting-1">Post weight</label>
+						<input type="text" id="postWeight" name="postWeight" title="Setting 1" class="form-control" placeholder="Setting 1">
 					</div>
 					<div class="form-group">
-						<label for="setting-2">Setting 2</label>
-						<input type="text" id="setting-2" name="setting-2" title="Setting 2" class="form-control" placeholder="Setting 2">
+						<label for="setting-2">Topic weight</label>
+						<input type="text" id="topicWeight" name="topicWeight" title="Setting 2" class="form-control" placeholder="Setting 2">
 					</div>
 				</form>
 			</div>
