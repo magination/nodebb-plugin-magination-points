@@ -8,6 +8,10 @@
       		"method": "addPost"
     	},
 		{
+      		"hook": "action:topic.post",
+      		"method": "addTopic"
+    	},
+		{
 			"hook": "static:app.load",
 			"method": "init"
 		},
