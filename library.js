@@ -3,6 +3,8 @@
 var controllers = require('./lib/controllers'),
 	settings    = require('./lib/settings'),
 	actions     = require('./lib/actions'),
+	constants 	= require('./constants'),
+	meta 		= module.parent.require('./meta'),
 	plugin 		= {};
 
 plugin.init = function(params, callback) {
@@ -16,6 +18,10 @@ plugin.init = function(params, callback) {
 	router.get('/admin/plugins/points', hostMiddleware.admin.buildHeader, controllers.renderAdminPage);
 	router.get('/api/admin/plugins/points', controllers.renderAdminPage);
 
+	meta.settings.get(constants.NAMESPACE, function(err, settings) {
+		console.log(settings);
+	});
+	
 	settings.init(callback);
 };
 
