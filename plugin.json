@@ -18,7 +18,11 @@
 		{
 			"hook": "filter:admin.header.build",
 			"method": "addAdminNavigation"
-		}
+		},
+	    {
+	      "hook": "filter:user.account",
+	      "method": "hooks.filters.account"
+    	}
 	],
 	"staticDirs": {
 		"static": "./static"
@@ -28,7 +32,9 @@
 	],
 	"scripts": [
 		"static/lib/main.js",
-		"static/lib/admin.js"
+		"static/lib/admin.js",
+		"static/lib/overview.js",
+		"static/lib/ranking.js"
 	],
 	"templates": "static/templates"
 }
