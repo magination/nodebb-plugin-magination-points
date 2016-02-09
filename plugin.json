@@ -21,7 +21,7 @@
 		},
 	    {
 	      "hook": "filter:user.account",
-	      "method": "hooks.filters.account"
+	      "method": "account"
     	}
 	],
 	"staticDirs": {

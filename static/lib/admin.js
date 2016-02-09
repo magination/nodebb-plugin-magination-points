@@ -21,6 +21,17 @@ define('admin/plugins/points', ['settings'], function(Settings) {
 				});
 			});
 		});
+
+		console.log("Settings");
+		console.log(Settings);
+		console.log(Settings.get('postWeight'));
+		console.log(meta.settings.get('points'));
+		document.darksouls = Settings;
+
+		$('#addRank').on('click', function(event) {
+			event.preventDefault();
+			$('#inputList').append('<input type="text" placeholder="rank"/> <input type="number" placeholder="points"/> <br />');
+		});
 	};
 
 	return ACP;

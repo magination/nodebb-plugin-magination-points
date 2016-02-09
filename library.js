@@ -4,6 +4,7 @@ var controllers = require('./lib/controllers'),
 	settings    = require('./lib/settings'),
 	actions     = require('./lib/actions'),
 	constants 	= require('./lib/constants'),
+	filters 	= require('./lib/filters'),
 //	meta 		= module.parent.require('./meta'),
 	plugin 		= {};
 
@@ -33,5 +34,6 @@ plugin.addAdminNavigation = function(header, callback) {
 
 plugin.addPost = actions.postSave;
 plugin.addTopic = actions.topicSave;
+plugin.account = filters.account;
 
 module.exports = plugin;
