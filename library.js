@@ -36,5 +36,7 @@ plugin.addPost = actions.postSave;
 plugin.addTopic = actions.topicSave;
 plugin.account = filters.account;
 plugin.topic = filters.topic;
+plugin.upvote = actions.upvote;
+plugin.downvote = actions.downvote;
 
 module.exports = plugin;

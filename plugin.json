@@ -26,7 +26,15 @@
 	    {
 	      "hook": "filter:topic.get",
 	      "method": "topic"
-    	}
+    	},
+    	{ 
+    		"hook": "action:post.upvote", 
+    		"method": "upvote" 
+		},
+    	{ 
+    		"hook": "action:post.downvote", 
+    		"method": "downvote" 
+		}
 	],
 	"staticDirs": {
 		"static": "./static"

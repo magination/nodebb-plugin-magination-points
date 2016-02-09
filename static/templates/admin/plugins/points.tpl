@@ -10,11 +10,15 @@
 					</p>
 					<div class="form-group">
 						<label for="setting-1">Post weight</label>
-						<input type="text" id="postWeight" name="postWeight" title="Setting 1" class="form-control" placeholder="Setting 1">
+						<input type="number" id="postWeight" name="postWeight" title="Setting 1" class="form-control" placeholder="Setting 1">
 					</div>
 					<div class="form-group">
 						<label for="setting-2">Topic weight</label>
-						<input type="text" id="topicWeight" name="topicWeight" title="Setting 2" class="form-control" placeholder="Setting 2">
+						<input type="number" id="topicWeight" name="topicWeight" title="Setting 2" class="form-control" placeholder="Setting 2">
+					</div>
+					<div class="form-group">
+						<label for="upvoteWeight">Upvote weight</label>
+						<input type="number" id="upvoteWeight" name="upvoteWeight" title="upvoteWeight" class="form-control" placeholder="0">
 					</div>
 					<label style="width: 20%;">Rank</label>
 					<label style="width: 20%;">Points</label>
