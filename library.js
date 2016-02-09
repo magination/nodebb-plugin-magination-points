@@ -35,5 +35,6 @@ plugin.addAdminNavigation = function(header, callback) {
 plugin.addPost = actions.postSave;
 plugin.addTopic = actions.topicSave;
 plugin.account = filters.account;
+plugin.topic = filters.topic;
 
 module.exports = plugin;

@@ -22,6 +22,10 @@
 	    {
 	      "hook": "filter:user.account",
 	      "method": "account"
+    	},
+	    {
+	      "hook": "filter:topic.get",
+	      "method": "topic"
     	}
 	],
 	"staticDirs": {
