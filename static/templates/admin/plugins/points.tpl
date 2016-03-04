@@ -40,6 +40,20 @@
 							<input class="md-col-2" id="rankPoints4" name="rankPoints4" title="rankPoints4" data-key="rankPoints4" type="number" class="form-controll" />
 					</div>
 
+					<label style="width: 20%;">Badge title</label>
+					<label style="width: 30%;">Badge description</label>
+					<label style="width: 49%;">Badge image</label>
+
+					<div class="form-group">
+							<input class="md-col-2" style="width: 20%;" id="badgeTitle1" name="badgeTitle1" title="badgeTitle1" data-key="badgeTitle1" type="text" class="form-control"/>
+							<input class="md-col-4" style="width: 30%;" id="badgeDescription1" name="badgeDescription1" title="badgeDescription1" data-key="badgeDescription1" type="text" class="form-control"/>
+							<input class="md-col-6" style="width: 49%;" id="badgeImg1" name="badgeImg1" title="badgeImg1" data-key="badgeImg1" type="text" class="form-controll" />
+					</div>
+					<div class="form-group">
+							<input class="md-col-2" style="width: 20%;" id="badgeTitle2" name="badgeTitle2" title="badgeTitle2" data-key="badgeTitle2" type="text" class="form-control"/>
+							<input class="md-col-4" style="width: 30%;" id="badgeDescription2" name="badgeDescription2" title="badgeDescription2" data-key="badgeDescription2" type="text" class="form-control"/>
+							<input class="md-col-6" style="width: 49%;" id="badgeImg2" name="badgeImg2" title="badgeImg2" data-key="badgeImg2" type="text" class="form-controll" />
+					</div>
 				</form>
 			</div>
 		</div>
