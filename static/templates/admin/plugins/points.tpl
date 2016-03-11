@@ -54,6 +54,11 @@
 							<input class="md-col-4" style="width: 30%;" id="badgeDescription2" name="badgeDescription2" title="badgeDescription2" data-key="badgeDescription2" type="text" class="form-control"/>
 							<input class="md-col-6" style="width: 49%;" id="badgeImg2" name="badgeImg2" title="badgeImg2" data-key="badgeImg2" type="text" class="form-controll" />
 					</div>
+					<div class="form-group">
+							<input class="md-col-2" style="width: 20%;" id="badgeTitle3" name="badgeTitle3" title="badgeTitle3" data-key="badgeTitle3" type="text" class="form-control"/>
+							<input class="md-col-4" style="width: 30%;" id="badgeDescription3" name="badgeDescription3" title="badgeDescription3" data-key="badgeDescription3" type="text" class="form-control"/>
+							<input class="md-col-6" style="width: 49%;" id="badgeImg3" name="badgeImg3" title="badgeImg3" data-key="badgeImg3" type="text" class="form-controll" />
+					</div>
 				</form>
 			</div>
 		</div>
